@@ -1,0 +1,1 @@
+export const COUNTRIES=[{id:'GER',name:'Deutschland',flag:'🇩🇪'},{id:'BRA',name:'Brasilien',flag:'🇧🇷'},{id:'ARG',name:'Argentinien',flag:'🇦🇷'},{id:'FRA',name:'Frankreich',flag:'🇫🇷'}];
