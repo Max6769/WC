@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>World Cup Manager</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+⚽ World Cup Manager
+
+</div>
+
+<nav id="mainNav">
+
+<button data-view="home">Start</button>
+
+<button data-view="team">Kader</button>
+
+<button data-view="market">Transfermarkt</button>
+
+<button data-view="tournament">Turnier</button>
+
+<button data-view="stats">Statistiken</button>
+
+<button data-view="settings">Einstellungen</button>
+
+</nav>
+
+</header>
+
+<main>
+
+<section id="home" class="view active">
+
+<h1>World Cup Manager</h1>
+
+<p>Führe deine Nationalmannschaft zum WM-Titel.</p>
+
+<button id="newGame">
+Neues Spiel starten
+</button>
+
+<button id="continueGame">
+Spiel fortsetzen
+</button>
+
+</section>
+
+<section id="team" class="view">
+
+<h2>Kader</h2>
+
+<p>Phase 3</p>
+
+</section>
+
+<section id="market" class="view">
+
+<h2>Transfermarkt</h2>
+
+<p>Phase 4</p>
+
+</section>
+
+<section id="tournament" class="view">
+
+<h2>Weltmeisterschaft</h2>
+
+<p>Phase 5</p>
+
+</section>
+
+<section id="stats" class="view">
+
+<h2>Statistiken</h2>
+
+<canvas id="priceChart"></canvas>
+
+</section>
+
+<section id="settings" class="view">
+
+<h2>Einstellungen</h2>
+
+<label>
+
+<input type="checkbox">
+
+Sound
+
+</label>
+
+<br><br>
+
+<button id="resetSave">
+
+Spielstand löschen
+
+</button>
+
+</section>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
